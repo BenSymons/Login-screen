@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './Style.scss';
 import Logo from "./Components/logo"
 import Login from "./Components/login_form"
 
