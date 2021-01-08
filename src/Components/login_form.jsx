@@ -16,7 +16,12 @@ const Login = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input placeholder="email" value={email} onChange={handleChange} />
+            <input placeholder="email" value={email} onChange={handleChange} /><br />
+            <label>
+                <input type="checkbox" label="something" />
+                remember me
+                <br />
+            </label>
             <button>Sign in</button>
         </form >
     )
