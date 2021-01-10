@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Logo/>
-      <h2>Renewable energy solutions</h2>
-        <p>Please enter your email below</p>
+      <h2>Operations studio</h2>
+      <p class="prompt">Please enter your email below</p>
       <Login/>
     </div>
   );

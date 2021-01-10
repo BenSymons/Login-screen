@@ -1,7 +1,53 @@
 $bgcolour: white;
-$standardfont: gotham;
+$standardfont: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$feint: rgb(134, 134, 134);
+$border: solid 1px rgb(200, 200, 200);
 
 body {
     background-color: $bgcolour;
     font-family: $standardfont;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 29px;
+    margin-bottom: 0;
+}
+
+.prompt{
+    color: $feint;
+    margin: 4px;
+}
+
+p {
+    margin-top: 0;
+}
+
+#logo {
+    width: 120px;
+    font-family: Gotham
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.field {
+    margin-bottom: 17px;
+    border: $border;
+    border-radius: 5px;
+    height: 35px;
+    width: 380px;
+}
+
+button{
+    border: $border;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: white;
+}
+
+.remember{
+    margin-bottom: 50px;
 }
