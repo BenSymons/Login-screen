@@ -1,3 +1,9 @@
+# Log in page
+
+Here is my login page. To run it, clone this repository using git clone, open the repository in an editor and then use the command 'npm start' in the terminal.
+
+I've completed the design as close to the specifications as possible. For the login form, I've used a hook to store the email that was entered. I've added some shadow effects for the input field and the button that you can see when you hover your mouse over it. Any other questions please feel free to ask.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
