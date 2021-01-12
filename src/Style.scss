@@ -2,6 +2,7 @@ $bgcolour: white;
 $standardfont: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 $feint: rgb(134, 134, 134);
 $border: solid 1px rgb(200, 200, 200);
+$shadow: 4px 4px 3px rgb(189, 189, 189);
 
 body {
     background-color: $bgcolour;
@@ -41,11 +42,19 @@ form {
     width: 380px;
 }
 
+.field:hover {
+    box-shadow: $shadow;
+}
+
 button{
     border: $border;
     border-radius: 5px;
     padding: 8px 20px;
     background-color: white;
+}
+
+button:hover{
+    box-shadow: $shadow;
 }
 
 .remember{
