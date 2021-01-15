@@ -4,10 +4,20 @@ $feint: rgb(134, 134, 134);
 $border: solid 1px rgb(200, 200, 200);
 $shadow: 4px 4px 3px rgb(189, 189, 189);
 
+
 body {
     background-color: $bgcolour;
     font-family: $standardfont;
     padding: 25px;
+}
+
+.container {
+    margin: auto;
+    padding: 30px;
+    border: $border;
+    border-radius: 8px;
+    width: fit-content;
+    box-shadow: $shadow;
 }
 
 h2 {
