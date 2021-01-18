@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Logo/>
         <h2>Operations studio</h2>
-        <p class="prompt">Please enter your email below</p>
+        <p className="prompt">Please enter your email below</p>
         <Login/>
       </div>
     </div>

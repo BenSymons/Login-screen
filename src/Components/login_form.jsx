@@ -3,10 +3,16 @@ import React, { useState } from "react"
 const Login = () => {
 
     const [email, setEmail] = useState("");
+    const [valid, setValid] = useState("");
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(email);
+        if (/\S+@\S+\.\S+/.test(email)) {
+            console.log(email);
+            setValid("login successful")
+        } else {
+            setValid("invalid email");
+        }
         setEmail("");
     }
 
@@ -17,9 +23,10 @@ const Login = () => {
     return (
         <form onSubmit={handleSubmit}>
             <p class="prompt">Email Address</p>
+            <p class={valid === "login successful" ? "valid" : "invalid"}>{valid}</p>
             <input class="field" value={email} onChange={handleChange} /><br />
             <label>
-                <input class="remember" type="checkbox" label="something" />
+                <input class="remember" type="checkbox" />
                 Remember me
                 <br />
             </label>
